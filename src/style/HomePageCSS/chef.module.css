@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+.mainChefContainer{
+    width: 80%;
+    margin: 150px auto 0px auto;
+    /* margin-top: 150px; */
+    text-align: center;
+}
+.mainChefContainer .titleContainer{
+    margin-bottom: 100px;
+}
+.serviceTitle{
+    font-size: 7.5rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    color: #c8a97e;
+    font-family: 'Great Vibes', cursive;
+}
+.serviceFeliciano{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;
+}
+.serviceRestaurant{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;   
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;    
+}
+.serviceSection{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainChefContainer .chefImgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainChefContainer .chefImgContainer .chefoneContainer{
+    width: 24%;
+}
+.mainChefContainer .chefImgContainer .chefoneContainer .chefImg{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background-color: #c8a97e;
+}
+.mainChefContainer .chefImgContainer .chefoneContainer .chefImg img{
+    width: 100%;
+    height: 400px;
+    transition: 0.3s ease-in-out;
+}
+.mainChefContainer .chefImgContainer .chefoneContainer .chefImg img:hover{
+    transform: scale(1.2,1.2);
+}
+.mainChefContainer .chefImgContainer .chefoneContainer .nameText{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.mainChefContainer .chefImgContainer .chefoneContainer .iconsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainChefContainer .chefImgContainer .chefoneContainer .iconsContainer img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.firstTesti{
+    width: 100%;
+    text-align: center;
+}
+.firstTesti .imgFirstTesti{
+    width: 200px;
+    margin: 100px auto 20px auto;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.firstTesti .imgFirstTesti img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.firstTesti .imgFirstTesti img:hover{
+    transform: scale(1.2,1.2);
+}
+.firstTesti p{
+    width: 60%;
+    margin: 20px auto 20px auto;
+    letter-spacing: 1px;
+    font-family: 'Poppins' , sans-serif;
+}
+.firstTesti h3{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: 'Poppins' , sans-serif;
+}
+.testimonials{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testimonials .titleContainer {
+    margin: 150px 0px 0px 0px;
+}
+.mainBgImg{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url('../../Images/reserve.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainBgImg .mainReservation{
+    width: 45%;
+    height: 600px;
+    color: #c8a97e;
+    background-color: antiquewhite;
+    margin-left: 100px;
+}
+.mainBgImg .mainReservation .titleContainer{
+    text-align: center;
+    margin-top: 10px;
+}
+.mainBgImg .mainReservation .formContainer{
+    width: 100%;
+    margin-top: 20px;
+}
+.mainBgImg .mainReservation .formContainer .nameEmailContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.mainBgImg .mainReservation .formContainer .nameEmailContainer .nameContainer{
+    width: 40%;
+    display: grid;
+    margin: 10px 0px;
+}
+.mainBgImg .mainReservation .formContainer .nameEmailContainer .nameContainer label{
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.mainBgImg .mainReservation .formContainer .nameEmailContainer .nameContainer input{
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid gray;
+    outline: none;
+    letter-spacing: 1px;
+}
+.mainBgImg .mainReservation .formContainer .buttons{
+    text-align: center;
+}
+
+    /* Media Queries for Our Master Chef(For Tablets) */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainChefContainer{
+        width: 100%;
+    }
+    .mainChefContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainChefContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainChefContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainChefContainer .chefImgContainer{
+        width: 100%;
+        padding: 20px;
+    }
+    .mainChefContainer .chefImgContainer .chefoneContainer .chefImg{
+        width: 100%;
+        height: 300px;
+    }
+    .mainChefContainer .chefImgContainer .chefoneContainer .chefImg img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .mainChefContainer{
+        width: 100%;
+    }
+    .mainChefContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainChefContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainChefContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainChefContainer .chefImgContainer{
+        width: 100%;
+        padding: 20px;
+    }
+    .mainChefContainer .chefImgContainer .chefoneContainer .chefImg{
+        width: 100%;
+        height: 300px;
+    }
+    .mainChefContainer .chefImgContainer .chefoneContainer .chefImg img{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .mainChefContainer{
+        width: 100%;
+    }
+    .mainChefContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainChefContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainChefContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainChefContainer .chefImgContainer{
+        width: 100%;
+        padding: 20px;
+    }
+    .mainChefContainer .chefImgContainer .chefoneContainer .chefImg{
+        width: 100%;
+        height: 300px;
+    }
+    .mainChefContainer .chefImgContainer .chefoneContainer .chefImg img{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Media Queries for Testimonials(For Tablets) */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .testimonials .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .testimonials .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .testimonials .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .testimonials .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .testimonials .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .testimonials .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+}
+
+/* Media Queries For Make Reservation (For Tablets) */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainBgImg .mainReservation{
+        width: 75%;
+    }
+    .mainBgImg .mainReservation .titleContainer{
+        width: 100%;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    
+}
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .mainBgImg .mainReservation{
+        width: 50%;
+    }
+    .mainBgImg .mainReservation .titleContainer{
+        width: 100%;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    
+}
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .mainBgImg .mainReservation{
+        width: 75%;
+    }
+    .mainBgImg .mainReservation .titleContainer{
+        width: 100%;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainBgImg .mainReservation .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    
+}

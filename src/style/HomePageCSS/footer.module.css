@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+.copyright{
+    width: 100%;
+    background-color: #3A3B3C;
+}
+.copyright .right{
+    width: 100%;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+.copyright .right .reserve{
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    color: lightgray;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+.copyright .right .reserve span{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    color: lightgray;
+    cursor: pointer;
+}
+.copyright .right .reserve span:hover{
+    color: #c8a97e;
+}
+.mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #3A3B3C;
+}
+.mainContainer .mainHoursContainer,.mainActivity,.mainSupport,.mainNewsLetter{
+    margin-top: 40px;
+}
+.mainContainer .titleContainer{
+    margin: 40px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.mainContainer .titleContainer h3{
+    font-family: 'Poppins', sans-serif;
+}
+.mainContainer .scheduleContainer{
+    width: 100%;
+}
+.mainContainer .scheduleContainer .schedule{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: flex-start;
+}
+.mainContainer .scheduleContainer .schedule .mon{
+    margin: 0px 20px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+}
+.mainContainer .scheduleContainer .schedule .monTime{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+}
+.mainContainer .mainActivity .activityContainer p{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.mainContainer .mainActivity .activityContainer p:hover{
+    color: #c8a97e;
+}
+.mainContainer .mainSupport .supportContainer p{
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.mainContainer .mainSupport .supportContainer p:hover{
+    color: #c8a97e;
+}
+.mainContainer .mainNewsLetter{
+    width: 20%;
+}
+.mainContainer .mainNewsLetter .NewsLetter .newsContainer{
+    display: grid;
+}
+.mainContainer .mainNewsLetter .NewsLetter .newsContainer input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: -10px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;    
+}
+.mainContainer .mainNewsLetter .NewsLetter .newsContainer button{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.mainContainer .mainNewsLetter .socialContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+.mainContainer .mainNewsLetter .socialContainer img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+

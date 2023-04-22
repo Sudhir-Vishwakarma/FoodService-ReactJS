@@ -1,0 +1,140 @@
+.mainBfContainer{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.dishesContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+.dishesContainer .imgMenuContainer{
+    overflow: hidden;
+    width: 235px;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dishesContainer img{
+    width: 265px;
+    height: 265px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.dishesContainer img:hover{
+    transform: scale(1.2,1.2);
+}
+.dishesContainer .riceContainer{
+    width: 235px;
+    height: 235px;
+    background-color: #DCDCDC;
+}
+.dishesContainer .riceContainer .fried{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 15px 10px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.dishesContainer .riceContainer .fried .price{
+    color: #c8a97e;
+    font-family: 'Poppins', sans-serif;
+}
+.dishesContainer .riceContainer .fried .ricePrice{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+.dishesContainer .riceContainer .riceText p{
+    text-align: justify;
+    margin: 0px 10px;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainBfContainer{
+        width: 100%;
+    }
+    .mainBfContainer .titleContainer{
+        width: 100%;
+    }
+    .mainBfContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainBfContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainBfContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainBfContainer .dishesContainer{
+        width: 85%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, auto,auto,auto,auto));
+    }
+    .mainBfContainer .dishesContainer img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .mainBfContainer{
+        width: 100%;
+    }
+    .mainBfContainer .titleContainer{
+        width: 100%;
+    }
+    .mainBfContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainBfContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainBfContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainBfContainer .dishesContainer{
+        width: 85%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, auto,auto,auto,auto));
+    }
+    .mainBfContainer .dishesContainer img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .mainBfContainer{
+        width: 100%;
+    }
+    .mainBfContainer .titleContainer{
+        width: 100%;
+    }
+    .mainBfContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainBfContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainBfContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainBfContainer .dishesContainer{
+        width: 85%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, auto,auto,auto,auto));
+    }
+    .mainBfContainer .dishesContainer img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}

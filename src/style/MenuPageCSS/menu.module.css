@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.mainMenuContainer{
+    background-color: #E5E4E2;
+}
+.mainContainer{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('../../Images/home-bg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.mainContainer h1{
+    font-family: 'Poppins', sans-serif;
+    color: #c8a97e;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+.mainContainer .breadcrumb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70%;
+}
+.mainContainer .breadcrumb .moreServices{
+    text-decoration: none;
+}
+.mainContainer .breadcrumb .moreServices p{
+    color: gray;
+    cursor: pointer;
+    font-family: 'Poppins' , sans-serif;
+    margin: 0px 5px;
+    transition: 0.2s ease-in-out;
+}
+.mainContainer .breadcrumb .moreServices p:hover{
+    color: #c8a97e;
+}
+.titleContainer{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.titleContainer h1{
+    margin-top: 150px;
+}
+.serviceTitle{
+    font-size: 7.5rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    color: #c8a97e;
+    font-family: 'Great Vibes', cursive;
+}
+.serviceFeliciano{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;
+}
+.serviceRestaurant{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;   
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;    
+}
+.mainMenuContainer .buttons{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.mainMenuContainer .buttons .menuBtn{
+    display: block;
+    width: 70%;
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+    color: #c8a97e;
+    padding: 10px 40px;
+    border-radius: 0px;
+    transition: 0.3s ease-in-out;
+}
+.mainMenuContainer .buttons .menuBtn:hover{
+    background-color: #c8a97e;
+    color: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainMenuContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .mainMenuContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .mainMenuContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    
+}

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+.homeABTmainContainer{
+    background-color:  black;
+    width: 100%;
+    height: 890px;
+    margin-top: -5px;
+    padding: 50px 50px 0px 50px;
+}
+.homeABTmainContainer .imgTextContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.imgContainer{
+    width: 35%;
+    display: flex;
+    position: relative;
+    left: 8%;
+}
+.imgContainer .firstchef{
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+    position: absolute;
+}
+.imgContainer .firstchef .chefone{
+    width: 80%;
+    height: 450px;
+}
+.imgContainer .secondchef{
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+    position: absolute;
+    left: 11%;
+    top: 60px;
+}
+.imgContainer .secondchef .cheftwo{
+    width: 80%;
+    height: 450px;
+}
+.textContainer{
+    width: 50%;
+    margin-top: 65px;
+    color: antiquewhite;
+}
+.mainTitle{
+    margin-bottom: 30px;
+}
+.aboutTitle{
+    font-size: 7.5rem;                  
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    color: #c8a97e;
+    font-family: 'Great Vibes', cursive;
+}
+.aboutFeliciano{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;
+}
+.aboutRestaurant{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;   
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;    
+}
+.abouttext{
+    text-align: justify;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Poppins' , sans-serif;
+}
+.aboutDay{
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: 'Poppins' , sans-serif;
+}
+.aboutTime{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Poppins' , sans-serif;
+}
+.aboutContact{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: #c8a97e;
+}
+.counterContainer{
+    color: antiquewhite;
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 90px;
+}
+.number{
+    font-size: 3.3rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: #F8B88B;
+}
+.year{
+    font-size: 1rem;
+    color: #c8a97e;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .homeABTmainContainer{
+        width: 100%;
+        padding: 10px 10px 0px 10px;
+    }
+    .imgTextContainer{
+        width: 100%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer{
+        width: 50%;
+        margin-right: 10px;
+        margin-left: -70px;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .firstchef{
+        width: 100%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .firstchef .chefone{
+        width: 82%;
+        height: 420px;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .secondchef{
+        width: 100%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .secondchef .cheftwo{
+        width: 82%;
+        height: 420px;
+    }
+    .homeABTmainContainer .imgTextContainer .textContainer{
+        width: 50%;
+        margin-left: 10px;
+    }
+    .mainTitle .aboutTitle{
+        font-size: 4.5rem;
+        margin-top: -44px;
+    }
+    .mainTitle .aboutFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainTitle .aboutRestaurant{
+        font-size: 2.5rem;
+    }
+    .aboutContact{
+        font-size: 2.3rem;
+    }
+    .homeABTmainContainer .counterContainer{
+        width: 80%;
+    }
+    .homeABTmainContainer .counterContainer .number{
+        font-size: 2.3rem;
+    }
+    .homeABTmainContainer .counterContainer .year{
+        font-family: 'Poppins' , sans-serif;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .homeABTmainContainer{
+        width: 100%;
+        padding: 20px 20px 0px 20px;
+    }
+    .imgTextContainer{
+        width: 100%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer{
+        width: 50%;
+        margin-right: 10px;
+        /* margin-left: -70px; */
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .firstchef{
+        width: 100%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .firstchef .chefone{
+        width: 60%;
+        height: 420px;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .secondchef{
+        width: 100%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .secondchef .cheftwo{
+        width: 60%;
+        height: 420px;
+    }
+    .homeABTmainContainer .imgTextContainer .textContainer{
+        width: 45%;
+        margin-right: 90px;
+    }
+    .mainTitle .aboutTitle{
+        font-size: 4.5rem;
+        margin-top: -44px;
+    }
+    .mainTitle .aboutFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainTitle .aboutRestaurant{
+        font-size: 2.5rem;
+    }
+    .aboutContact{
+        font-size: 2.3rem;
+    }
+    .homeABTmainContainer .counterContainer{
+        width: 80%;
+    }
+    .homeABTmainContainer .counterContainer .number{
+        font-size: 2.3rem;
+    }
+    .homeABTmainContainer .counterContainer .year{
+        font-family: 'Poppins' , sans-serif;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .homeABTmainContainer{
+        width: 100%;
+        padding: 10px 10px 0px 10px;
+    }
+    .imgTextContainer{
+        width: 100%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer{
+        width: 50%;
+        margin-right: 10px;
+        margin-left: -70px;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .firstchef{
+        width: 80%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .firstchef .chefone{
+        width: 82%;
+        height: 420px;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .secondchef{
+        width: 80%;
+    }
+    .homeABTmainContainer .imgTextContainer .imgContainer .secondchef .cheftwo{
+        width: 82%;
+        height: 420px;
+    }
+    .homeABTmainContainer .imgTextContainer .textContainer{
+        width: 50%;
+        margin-left: 10px;
+    }
+    .mainTitle .aboutTitle{
+        font-size: 4.5rem;
+        margin-top: -44px;
+    }
+    .mainTitle .aboutFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainTitle .aboutRestaurant{
+        font-size: 2.5rem;
+    }
+    .aboutContact{
+        font-size: 2.3rem;
+    }
+    .homeABTmainContainer .counterContainer{
+        width: 80%;
+    }
+    .homeABTmainContainer .counterContainer .number{
+        font-size: 2.3rem;
+    }
+    .homeABTmainContainer .counterContainer .year{
+        font-family: 'Poppins' , sans-serif;
+    }
+}

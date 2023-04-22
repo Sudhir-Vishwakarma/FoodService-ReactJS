@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+.firstMenuContainer{
+    width: 100%;
+    background-color: #E5E4E2;
+    padding-top: 170px;
+}
+.mainMenuContainer{
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+}
+.serviceTitle{
+    font-size: 7.5rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    color: #c8a97e;
+    font-family: 'Great Vibes', cursive;
+}
+.serviceFeliciano{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;
+}
+.serviceRestaurant{
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: #008000;   
+    font-weight: lighter;
+    font-family: 'Lobster', cursive;    
+}
+.serviceSection{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleContainer{
+    margin-bottom: 100px;
+}
+.dishesContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+}
+.dishesContainer .imgMenuContainer{
+    overflow: hidden;
+    width: 235px;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dishesContainer img{
+    width: 265px;
+    height: 265px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.dishesContainer img:hover{
+    transform: scale(1.2,1.2);
+}
+.dishesContainer .riceContainer{
+    width: 235px;
+    height: 235px;
+    background-color: #DCDCDC;
+}
+.dishesContainer .riceContainer .fried{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 15px 10px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.dishesContainer .riceContainer .fried .price{
+    color: #c8a97e;
+    font-family: 'Poppins', sans-serif;
+}
+.dishesContainer .riceContainer .fried .ricePrice{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+.dishesContainer .riceContainer .riceText p{
+    text-align: justify;
+    margin: 0px 10px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .mainMenuContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .dishesContainer{
+        width: 85%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, auto,auto,auto,auto));
+    }
+    .mainMenuContainer .dishesContainer img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .mainMenuContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .dishesContainer{
+        width: 85%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, auto,auto,auto,auto));
+    }
+    .mainMenuContainer .dishesContainer img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .mainMenuContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer{
+        width: 100%;
+    }
+    .mainMenuContainer .titleContainer .serviceTitle{
+        font-size: 4.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceFeliciano{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .titleContainer .serviceRestaurant{
+        font-size: 2.5rem;
+    }
+    .mainMenuContainer .dishesContainer{
+        width: 85%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(230px, auto,auto,auto,auto));
+    }
+    .mainMenuContainer .dishesContainer img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}

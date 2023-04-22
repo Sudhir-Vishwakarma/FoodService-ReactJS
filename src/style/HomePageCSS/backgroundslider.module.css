@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+.imageMainContainer{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+}
+.imageMainContainer img{
+    width: 100%;
+    height: 650px;
+    z-index: 0;
+}
+.typeContainer{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.textContainer .text{
+    color: #3D0C02;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+.textContainer .plant{
+    color: #3D0C02;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+.autotype{
+    color: #F8B88B;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.typeContainer button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F8B88B;
+    outline: 1px solid #F8B88B;
+    padding: 7px 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+.typeContainer button:hover{
+    color: #52D017;
+    outline: 1px solid #52D017;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .imageMainContainer{
+        width: 100%;
+    }
+    .imageMainContainer .textContainer{
+        width: 100%;
+    }
+    .imageMainContainer .textContainer .plant{
+        font-size: 2rem;
+    }
+    .imageMainContainer .textContainer .text{
+        font-size: 2rem;
+    }
+    .autotype{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .imageMainContainer{
+        width: 100%;
+    }
+    .imageMainContainer .textContainer{
+        width: 100%;
+    }
+    .imageMainContainer .textContainer .plant{
+        font-size: 2rem;
+    }
+    .imageMainContainer .textContainer .text{
+        font-size: 2rem;
+    }
+    .autotype{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .imageMainContainer{
+        width: 100%;
+    }
+    .imageMainContainer .textContainer{
+        width: 100%;
+    }
+    .imageMainContainer .textContainer .plant{
+        font-size: 2rem;
+    }
+    .imageMainContainer .textContainer .text{
+        font-size: 2rem;
+    }
+    .autotype{
+        font-size: 3.5rem;
+    }
+}

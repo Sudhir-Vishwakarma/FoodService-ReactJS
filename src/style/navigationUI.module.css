@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
+.mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 0px 7px 12px 0px rgba(0,0,0,0.75);
+    position: fixed;
+}
+.mainContainer .mainLogo{
+    width: 50%;
+}
+.mainContainer .mainLogo .logolink{
+    text-decoration: none;
+}
+.mainContainer .mainLogo .logotext{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #F8B88B;
+    display: inline;
+}
+.mainContainer .linkContainer{
+    width: 50%;
+}
+.mainContainer .linkContainer .underline{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0px;
+}
+.mainContainer .linkContainer .underline li{
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+.mainContainer .linkContainer .underline li .home{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F8B88B;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    font-family: 'Poppins' , sans-serif;
+}
+.mainContainer .linkContainer .underline li .home:hover{
+    color: #52D017;
+    outline: 1px solid #52D017;
+}
+.mainContainer .linkContainer .underline li .homee{
+    display: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+    background-color:lightgray;
+    outline: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    font-family: 'Poppins' , sans-serif;
+}
+.mainContainer .linkContainer .underline li .homee:hover{
+    color: #52D017;
+    outline: 1px solid #52D017;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+   .mainContainer{
+    width: 100%;
+    position: fixed;
+   }
+   .mainContainer .mainLogo .logotext{
+    font-size: 2rem;
+   }
+   .mainContainer .linkContainer .underline li .homee{
+    display: none;
+   }
+  }
+@media screen and (min-width: 800px) and (max-width: 1280px){
+    .mainContainer{
+     width: 100%;
+     position: fixed;
+    }
+    .mainContainer .mainLogo .logotext{
+     font-size: 2rem;
+    }
+    .mainContainer .linkContainer .underline li .homee{
+     display: none;
+    }
+}
+@media screen and (min-width: 810px) and (max-width: 1080px){
+    .mainContainer{
+     width: 100%;
+     position: fixed;
+    }
+    .mainContainer .mainLogo .logotext{
+     font-size: 2rem;
+    }
+    .mainContainer .linkContainer .underline li .homee{
+     display: none;
+    }
+}
